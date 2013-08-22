@@ -1,0 +1,55 @@
+----------------------------------------------------
+STRUCTURE by Pritchard, Stephens and Donnelly (2000)
+     and Falush, Stephens and Pritchard (2003)
+       Code by Pritchard, Falush and Hubisz
+             Version 2.3.1 (Febrauary 2009)
+----------------------------------------------------
+Command line arguments:   /home/ebm447/fastPhase/structure -K 2 -i /home/ebm447/eig/struct3k.inp -N 1464 -L 1814 -o struct_out_2a 
+Input File:    /home/ebm447/eig/struct3k.inp
+
+Run parameters:
+   1464 individuals
+   1814 loci
+   2 populations assumed
+   1000 Burn-in period
+   20000 Reps
+--------------------------------------------
+Proportion of membership of each pre-defined
+ population in each of the 2 clusters
+
+Given    Inferred Clusters       Number of
+ Pop       1      2             Individuals
+100:     0.009  0.991              90
+101:     0.013  0.987              98
+102:     0.023  0.977             100
+103:     0.044  0.956              53
+104:     0.012  0.988              78
+105:     0.109  0.891              10
+106:     0.145  0.855               7
+107:     0.010  0.990               4
+109:     0.037  0.963               5
+110:     0.111  0.889               7
+111:     0.091  0.909               5
+--------------------------------------------
+
+Allele-freq. divergence among pops (Net nucleotide distance),
+computed using point estimates of P.
+
+      1       2      
+ 1      -    0.0962  
+ 2   0.0962     -    
+
+Average distances (expected heterozygosity) between individuals in same cluster:
+cluster  1  : 0.3366 
+cluster  2  : 0.4612 
+
+--------------------------------------------
+Estimated Ln Prob of Data   = -3333854.8
+Mean value of ln likelihood = -3332441.5
+Variance of ln likelihood   = 2826.5
+Mean value of alpha         = 0.2088
+Mean value of r              = 1.0774
+Standard deviation of r    = 2.0626
+
+Mean value of Fst_1         = 0.3470
+Mean value of Fst_2         = 0.0089
